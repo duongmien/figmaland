@@ -3,7 +3,8 @@ body {
 }
 nav {
   background-color: transparent;
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   width: 100%;
 }
 nav ul.left{
@@ -93,7 +94,13 @@ section.features .content .feature-card{
   padding-left: 3.5rem;
   padding-right: 3.5rem;
 }
-
+section.features .content .video{
+  margin-top: 132px;
+}
+section.features .content iframe{
+  filter: drop-shadow(0px 8.14769px 63.1446px rgba(0, 0, 0, 0.15));
+border-radius: 44.8123px;
+}
 section.fastest-way {
   padding: 286px 0px
 }
@@ -175,6 +182,7 @@ section.lightning-fast input{
   background: #F4F4F4;
   border: 1px solid #E8E8E8;
   border-radius: 39px;
+  padding: 0 20px;
 }
 section.lightning-fast button{
   width: 172px;
