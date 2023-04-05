@@ -1,0 +1,108 @@
+body {
+  font-family: 'Graphik', sans-serif;
+}
+section.intro {
+  background-image: url("../img/top-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 120vh;
+}
+section.intro .content{
+  padding: 270px 550px;
+}
+section.intro .content h1{
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+}
+section.intro .content h4{
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  margin-bottom: 90px;
+}
+section.intro .content button{
+  width: 236px;
+  height: 52px;
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+
+section.features .content h2{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+}
+section.features .content h4{
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  margin-bottom: 97px;
+}
+section.features .content img{
+  
+  margin-bottom: 20px;
+}
+section.features .content h3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+}
+section.features .content p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+section.features .content .feature-card{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+section.fastest-way {
+  padding: 286px 0px
+}
+section.fastest-way .left{
+  padding-right: 50px;
+}
+section.fastest-way h2 {
+  color: #252B42;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+}
+section.fastest-way h4 {
+  color: #374754;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  margin-bottom: 70px;
+}
+section.fastest-way button{
+  width: 236px;
+  height: 60px;
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+section.fastest-way img{
+  width: 100%;
+}
