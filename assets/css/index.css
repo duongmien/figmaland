@@ -1,6 +1,29 @@
 body {
   font-family: 'Graphik', sans-serif;
 }
+nav {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+}
+nav ul.left{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+nav ul.left li{
+  color: #FFFFFF;
+  padding: 10px;
+}
+nav ul.right {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  gap: 24px;
+  align-items: center;
+  height: 100%;
+}
 section.intro {
   background-image: url("../img/top-bg.png");
   background-position: top center;
@@ -106,3 +129,411 @@ section.fastest-way button{
 section.fastest-way img{
   width: 100%;
 }
+
+section.lightning-fast{
+  padding: 150px 0;
+}
+section.lightning-fast .left{
+  padding: 0 101px;
+}
+section.lightning-fast img{
+  width: 100%;
+}
+section.lightning-fast img{
+  width: 100%;
+}
+section.lightning-fast .right{
+  padding-top: 84px;
+}
+section.lightning-fast h3{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  margin-bottom: 8px;
+}
+section.lightning-fast h2{
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+section.lightning-fast p{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 36px;
+}
+section.lightning-fast .subscribe-section {
+  gap: 12px;
+}
+section.lightning-fast input{
+  width: 273px;
+  height: 54px;
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+}
+section.lightning-fast button{
+  width: 172px;
+  height: 58px;
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+section.partners h2{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+}
+section.partners h4{
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  margin-bottom: 90px;
+  padding: 0 360px;
+}
+section.partners .list-partner{
+  display: flex;
+}
+section.partners .list-partner .partner-item{
+  border: 1px solid #D8D8D8;
+  flex-grow: 1;
+}
+section.partners .list-partner .partner-item .partner-content{
+  padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+section.partners .list-partner .partner-item .partner-content h5{
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+section.partners button{
+  width: 236px;
+  height: 60px;
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin: 80px 0;
+}
+
+section.testimonials h2{
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 90px;
+}
+section.testimonials .brand{
+  margin-bottom: 60px;
+}
+section.testimonials h4{
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 62px;
+  padding: 0 150px;
+}
+section.testimonials .designer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 82.5px;
+}
+section.testimonials img{
+  margin-right: 13px;
+}
+section.testimonials .designer h5{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  margin-bottom: 2px;
+}
+section.testimonials .designer p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  margin-bottom: 0;
+}
+section.testimonials button{
+  width: 236px;
+  height: 60px;
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  margin-bottom: 100px;
+}
+
+section.pricing {
+  background-color: #252B42;
+  padding: 110px 0 100px 0 ;
+}
+section.pricing h2{
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+}
+section.pricing h4 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-bottom: 90px;
+}
+section.pricing .content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.pricing .pricing-card{
+  border: 1px solid #DEDEDE;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  text-align: center;
+}
+section.pricing .pricing-card h3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+section.pricing .pricing-card h5{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+}
+section.pricing .pricing-card h1{
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+section.pricing .pricing-card .price{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28.5px;
+}
+section.pricing .pricing-card .time{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+section.pricing .pricing-card .time h3{
+  margin-bottom: 0;
+}
+section.pricing .pricing-card .time h5{
+  margin-bottom: 0;
+}
+section.pricing .pricing-card .pricing-feature{
+  margin-bottom: 40px;
+}
+section.pricing .pricing-card .pricing-feature p{
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+section.pricing .pricing-card button{
+  width: 255px;
+  height: 56px;
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+section.pricing .pricing-card.short-card{
+  background-color: #FFFFFF;
+  padding: 43px 40px 40px 40px;
+}
+section.pricing .pricing-card.long-card{
+  background-color: #2091F9;
+  padding: 86px 40px 83px 40px;
+  color: #ffffff;
+}
+section.pricing .pricing-card.long-card button{
+  background-color: #FFFFFF;
+  color: #2091F9;
+}
+
+section.contact-us{
+  padding: 213px 0 102px 0;
+}
+section.contact-us h2{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+}
+section.contact-us h4{
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  margin-bottom: 90px;
+  padding: 0 360px;
+}
+section.contact-us .contact-us-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 52px 50px;
+  gap: 45px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  margin-right: 36px;
+}
+section.contact-us .contact-us-form h3{
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+section.contact-us .contact-us-form input{
+  height: 54px;
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+  padding: 0 20px;
+}
+section.contact-us .contact-us-form textarea{
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+}
+section.contact-us .contact-us-form button{
+  width: 145px;
+  height: 56px;
+  background: #2091F9;
+  border-radius: 35px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+section.contact-us .infomation{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 28.5px;
+}
+section.contact-us .infomation .address{
+  flex-basis: 40%;
+}
+section.contact-us .infomation .address img{
+  margin-bottom: 20px;
+}
+section.contact-us .infomation .phone{
+  flex-basis: 20%;
+}
+section.contact-us .infomation .phone img{
+  margin-bottom: 20px;
+}
+section.contact-us .infomation .email{
+  flex-basis: 40%;
+}
+section.contact-us .infomation .email img{
+  margin-bottom: 20px;
+}
+section.contact-us .infomation h5{
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+section.contact-us .google-map{
+  display: block;
+  margin: 0 auto 75px auto;
+}
+section.contact-us .social-media{
+  display: flex;
+  gap: 24px;
+}
+
+footer {
+  background-color: #252B42;
+  padding: 150px 393px;
+}
+footer a{
+  text-decoration: none;
+  display: block;
+}
+footer .column-link h3{
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+footer .column-link a{
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+footer .address{
+  gap: 8px;
+  margin-bottom: 14px;
+}
+footer .phone{
+  gap: 8px;
+  margin-bottom: 44.5px;
+}
+footer .social-media{
+  display: flex;
+  gap: 8px;
+}
+footer .right{
+  padding-left: 100px;
+}
+
+
+
